@@ -2,6 +2,8 @@ $mainBlack: #222;
 $mainGreen: rgb(24, 173, 69);
 $mainWhite: #fff;
 $mainGray: #ececec;
+$mainDarkGray: #505050;
+$mainTransition: all 0.3s linear;
 
 body {
   margin: 0;
@@ -10,6 +12,6 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: $mainGray;
+  background: $mainWhite;
   color: $mainGreen;
 }
