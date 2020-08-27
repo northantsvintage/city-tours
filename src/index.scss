@@ -1,0 +1,15 @@
+$mainBlack: #222;
+$mainGreen: rgb(24, 173, 69);
+$mainWhite: #fff;
+$mainGray: #ececec;
+
+body {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $mainGray;
+  color: $mainGreen;
+}
